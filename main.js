@@ -86,7 +86,7 @@ function chartInfo(){
  textSize(20);
  textAlign(LEFT);
  fill('gold');
- text("A visual graph designed in the shape of a snail in reference to the Yorùbá creation story where, thanks to Ọbàtálá, the snail’s shell is made an integral part of the earth’s creation.The shell doubles as an ancient compass and calculator. The shell doubles as an ancient compass and calculator. If you scroll along the edges of the shell, numbers are converted into binaries using either 0 or 1. This binary system was rooted in the Ifa Corpus which consists of 256 odu’s. The “open and closed shells” used in divination readings are akin to the ‘0’s and ‘1’s” used in the binary system that created our current computational realities.  ",width/7.5,height/3.5-120,width/4)
+ text("A visual graph designed in the shape of a snail in reference to the Yorùbá creation story where, thanks to Ọbàtálá, the snail’s shell is made an integral part of the earth’s creation.The shell doubles as an ancient compass and calculator. A visual graph designed in the shape of a snail in reference to the Yorùbá creation story where, thanks to Ọbàtálá, the snail’s shell is made an integral part of the earth’s creation.The shell doubles as an ancient compass and calculator. The shell doubles as an ancient compass and calculator. If you scroll along the edges of the shell, numbers are converted into binaries using either 0 or 1. This binary system was rooted in the Ifa Corpus which consists of 256 odu’s. The “open and closed shells” used in divination readings are akin to the ‘0’s and ‘1’s” used in the binary system that created our current computational realities.  ",width/7.5,height/3.5-120,width/4)
 }
 
 let dataMin, dataMax=0;
