@@ -55,7 +55,7 @@ function draw() {
     let datasize = 3;
     let dis = dist(mouseX,mouseY, pointx,pointy);
     if(dis<2){
-       fill('red')
+       fill('white')
       datasize = 10;
       noStroke();
       circle(pointx,pointy,datasize);
