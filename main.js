@@ -43,7 +43,7 @@ function draw() {
     //draw the line
     if(i % 12 ===0){
       strokeWeight(0.5);
-      stroke('blue')
+      stroke('black')
     }else{ 
       strokeWeight(0.1);
       stroke('black')
@@ -64,12 +64,12 @@ function draw() {
       textSize(12);
       fill('black')
       text(date[i],diagramX,diagramY)
-      fill('blue')
+      fill('black')
       rect(diagramX,diagramY+15,30,5)
       textSize(25);
       text(gsml[i],diagramX,diagramY+45)
     }else{
-      fill('blue')
+      fill('black')
       datasize = 3;
       noStroke();
       circle(pointx,pointy,datasize);
