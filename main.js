@@ -26,7 +26,7 @@ function setup() {
 
 let size = [];
 function draw() {
-  background(280);
+  background(000);
   chartInfo();
   diagramX = (width/4)*3-90;
   diagramY = height/2;
@@ -43,10 +43,10 @@ function draw() {
     //draw the line
     if(i % 12 ===0){
       strokeWeight(0.5);
-      stroke('black')
+      stroke('orange')
     }else{ 
-      strokeWeight(0.1);
-      stroke('black')
+      strokeWeight(0.8);
+      stroke('orange')
     }
     line(cirx,ciry,pointx,pointy)
     
@@ -55,21 +55,21 @@ function draw() {
     let datasize = 3;
     let dis = dist(mouseX,mouseY, pointx,pointy);
     if(dis<2){
-       fill('white')
+       fill('turquoise')
       datasize = 10;
       noStroke();
       circle(pointx,pointy,datasize);
       //draw information
       textAlign(CENTER)
       textSize(12);
-      fill('black')
+      fill('gold')
       text(date[i],diagramX,diagramY)
-      fill('black')
+      fill('gold')
       rect(diagramX,diagramY+15,30,5)
       textSize(25);
       text(gsml[i],diagramX,diagramY+45)
     }else{
-      fill('black')
+      fill('gold')
       datasize = 3;
       noStroke();
       circle(pointx,pointy,datasize);
@@ -79,10 +79,14 @@ function draw() {
  } 
   
 function chartInfo(){
- textSize(14);
+  textSize(25);
  textAlign(LEFT);
- fill('black');
- text("african fractals & indigenous computation",width/7.5,height/3.5-120,width/4)
+ fill('gold');
+ text(" Ìgbín",width/7.5,height/4.5-120,width/10)
+ textSize(20);
+ textAlign(LEFT);
+ fill('gold');
+ text("The shell doubles as an ancient compass and calculator. If you scroll along the edges of the shell, numbers are converted into binaries using either 0 or 1. This binary system was rooted in the Ifa Corpus which consists of 256 odu’s. The “open and closed shells” used in divination readings are akin to the ‘0’s and ‘1’s” used in the binary system that created our current computational realities.  ",width/7.5,height/3.5-120,width/4)
 }
 
 let dataMin, dataMax=0;
